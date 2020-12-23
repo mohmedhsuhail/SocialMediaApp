@@ -1,0 +1,127 @@
+/* BASE */
+
+.main-title, .logged, .logged-out {
+
+	margin-top: 100px;
+}
+
+.groupslist {
+	margin-left: 90%;
+	width: 100%;
+}
+
+.mygroup-title, .allgroup-title {
+
+	margin-bottom: 35px;
+}
+
+/* ACCOUNTS */
+#login-label {
+	margin-top: 75px;
+}
+
+ #signup-label {
+
+	margin-top: 65px;
+}
+
+.login-form, .signup-form {
+
+	margin-top: 25px;
+	width: 750px;
+}
+
+/* POSTS */
+
+.deletion {
+	margin-top: 85px;
+}
+
+.confirm-delete, #new-post {
+	margin-top: 25px;
+}
+
+#new-post {
+	margin-top: 75px;
+	font-size: 2em;
+}
+
+.create-post {
+	width: 750px;
+}
+
+.card {
+	margin-top: 50px;
+}
+
+#post-username {
+
+	margin-top: 13%;
+}
+
+
+/* GROUPS */
+
+#group-name {
+
+	margin-top: 7%;
+	margin-left: 42%;
+}
+
+.leave-or-join, .delete {
+   display:inline-block;
+   margin-right: 50%;
+
+}
+
+#no-post {
+
+	margin-bottom: 50%;
+}
+
+#mem-count {
+
+	margin-bottom: 15px;
+}
+
+
+.group-posts {
+margin-top: 10%;
+margin-right: 100%;
+width: 100%
+
+}
+
+#new-group {
+
+	margin-top: 45px;
+	font-size: 3em;
+}
+
+#groupForm {
+
+	width: 750px;
+}
+
+#group-header {
+
+	margin-top: 15%;
+}
+
+.group-label {
+
+	margin-right: 100%;
+	width: 100%
+}
+
+#create-group {
+
+	margin-top: 2.5%;
+	margin-right: 100%;
+}
+
+.list-group {
+
+	margin-top: 3%;
+	width: 100%;
+}

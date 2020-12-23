@@ -1,0 +1,26 @@
+
+<h1>HI</h1>
+<div class="groupslist">
+<div class="col-md-8">
+	<div class="card card-with-shadow">
+		<div class="content">
+			<h3 class="mygroup-title">Your Groups</h3>
+			<ol class="list-unstyled">
+				{% for member_group in get_user_groups %}
+				<li class="group li-with-bullet">
+					<a href="{% url 'groups:single' slug=member_group.slug %}">{{ member_group.name }}</a></li>
+				<hr>
+				{% endfor %}
+			</ol>
+		    <h3 class="allgroup-title">All Groups</h3>
+			<ul class="list-unstyled">
+				{% for other_group in get_other_groups %}
+				<li class="group li-with-bullet">
+					<a href="{% url 'groups:single'  slug=other_group.slug %}">{{other_group.name}}</a></li>
+				<hr>
+				{% endfor %}
+		    </ul>
+		</div>
+	</div>
+</div>
+</div>
